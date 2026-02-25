@@ -56,6 +56,15 @@ cp .env.example .env
 # Edit .env if needed
 ```
 
+## Getting Started After Cloning
+
+1. Download `data.csv` from https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+2. Place it at `dataset/data.csv`
+3. Run the training script to generate model files:
+```bash
+   python scripts/train_and_export.py --data dataset/data.csv
+```
+
 ### 4. Place your dataset
 ```bash
 mkdir dataset
